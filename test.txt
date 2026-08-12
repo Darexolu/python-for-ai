@@ -1,0 +1,55 @@
+Data structures in Python
+
+Lists
+Dictionaries
+Tuples -- fixed values like const and they are like lists and it uses parentheses e.g empty = ()
+Sets -- unique values like enums--it's used to prevent duplicates
+
+empty_set = set()  # NOT {} - that's a dict!
+
+# Set with values - both ways work
+numbers = {1, 2, 3, 4, 5} no strings used "" so it's a set
+fruits = set(["apple", "banana", "orange"])
+
+# From a list (removes duplicates)
+scores = [85, 90, 85, 92, 90]
+unique_scores = set(scores)  # {85, 90, 92}
+
+
+Pandas
+
+pandas is a library thats used to manipulate data..it looks like excel, but it's used for python.
+
+matplotlib	
+
+matplotlib is library thats used to visualize data like a chart.
+
+import os ----- use it to create the data in a csv file. os means operating system
+
+
+OBJECT ORIENTED PROGRAMMING
+
+It's a way to organize code by grouping related data and functions together. instead of having related variables and functions scattered around, you bundle 
+them into objects.
+
+
+CLASSES  
+A class is a blueprint for creating objects. it defines:
+Attributes: What data the object stores
+Methods: What the object can do.
+
+
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+self refers to the current object.it's how an object keeps track of its own data.
+
+RUFF
+
+Ruff is a modern Python tool that's incredibly fast and combines multiple tools in one:
+
+Linting- Finding issues and potential errors
+Formating- Fixing code style automatically
+Import sorting- Organizing imports clearly
