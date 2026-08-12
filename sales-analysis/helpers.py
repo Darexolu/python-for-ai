@@ -1,4 +1,4 @@
-# helpers.py
+# function
 
 def calculate_total(quantity, price):
     """Calculate total for a single item"""
